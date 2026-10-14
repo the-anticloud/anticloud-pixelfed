@@ -1,0 +1,480 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:babb095e-004d-558a-8951-3163d580e51b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T14:05:02Z",
+    "component": {
+      "type": "application",
+      "name": "PIXELFED",
+      "version": "3c2a805cec70",
+      "bom-ref": "pkg:generic/anticloud/PIXELFED@3c2a805cec70",
+      "purl": "pkg:generic/anticloud/PIXELFED@3c2a805cec70",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "3c2a805cec708d06c671dc60738be4a6ce852f02"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/pixelfed/pixelfed"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@fancyapps/fancybox",
+      "version": "^3.5.7",
+      "purl": "pkg:npm/@fancyapps/fancybox@^3.5.7",
+      "bom-ref": "npm/@fancyapps/fancybox@^3.5.7"
+    },
+    {
+      "type": "library",
+      "name": "@glidejs/glide",
+      "version": "^3.6.2",
+      "purl": "pkg:npm/@glidejs/glide@^3.6.2",
+      "bom-ref": "npm/@glidejs/glide@^3.6.2"
+    },
+    {
+      "type": "library",
+      "name": "@hcaptcha/vue-hcaptcha",
+      "version": "^1.3.0",
+      "purl": "pkg:npm/@hcaptcha/vue-hcaptcha@^1.3.0",
+      "bom-ref": "npm/@hcaptcha/vue-hcaptcha@^1.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@peertube/p2p-media-loader-core",
+      "version": "^1.0.14",
+      "purl": "pkg:npm/@peertube/p2p-media-loader-core@^1.0.14",
+      "bom-ref": "npm/@peertube/p2p-media-loader-core@^1.0.14"
+    },
+    {
+      "type": "library",
+      "name": "@peertube/p2p-media-loader-hlsjs",
+      "version": "^1.0.14",
+      "purl": "pkg:npm/@peertube/p2p-media-loader-hlsjs@^1.0.14",
+      "bom-ref": "npm/@peertube/p2p-media-loader-hlsjs@^1.0.14"
+    },
+    {
+      "type": "library",
+      "name": "@trevoreyre/autocomplete-vue",
+      "version": "^2.2.0",
+      "purl": "pkg:npm/@trevoreyre/autocomplete-vue@^2.2.0",
+      "bom-ref": "npm/@trevoreyre/autocomplete-vue@^2.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@web3-storage/parse-link-header",
+      "version": "^3.1.0",
+      "purl": "pkg:npm/@web3-storage/parse-link-header@^3.1.0",
+      "bom-ref": "npm/@web3-storage/parse-link-header@^3.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@zip.js/zip.js",
+      "version": "^2.7.24",
+      "purl": "pkg:npm/@zip.js/zip.js@^2.7.24",
+      "bom-ref": "npm/@zip.js/zip.js@^2.7.24"
+    },
+    {
+      "type": "library",
+      "name": "animate.css",
+      "version": "^4.1.0",
+      "purl": "pkg:npm/animate.css@^4.1.0",
+      "bom-ref": "npm/animate.css@^4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "bigpicture",
+      "version": "^2.6.2",
+      "purl": "pkg:npm/bigpicture@^2.6.2",
+      "bom-ref": "npm/bigpicture@^2.6.2"
+    },
+    {
+      "type": "library",
+      "name": "blurhash",
+      "version": "^2.0.5",
+      "purl": "pkg:npm/blurhash@^2.0.5",
+      "bom-ref": "npm/blurhash@^2.0.5"
+    },
+    {
+      "type": "library",
+      "name": "bootstrap-vue",
+      "version": "^2.22.0",
+      "purl": "pkg:npm/bootstrap-vue@^2.22.0",
+      "bom-ref": "npm/bootstrap-vue@^2.22.0"
+    },
+    {
+      "type": "library",
+      "name": "caniuse-lite",
+      "version": "^1.0.30001418",
+      "purl": "pkg:npm/caniuse-lite@^1.0.30001418",
+      "bom-ref": "npm/caniuse-lite@^1.0.30001418"
+    },
+    {
+      "type": "library",
+      "name": "chart.js",
+      "version": "^2.7.2",
+      "purl": "pkg:npm/chart.js@^2.7.2",
+      "bom-ref": "npm/chart.js@^2.7.2"
+    },
+    {
+      "type": "library",
+      "name": "filesize",
+      "version": "^3.6.1",
+      "purl": "pkg:npm/filesize@^3.6.1",
+      "bom-ref": "npm/filesize@^3.6.1"
+    },
+    {
+      "type": "library",
+      "name": "hls.js",
+      "version": "^1.5.13",
+      "purl": "pkg:npm/hls.js@^1.5.13",
+      "bom-ref": "npm/hls.js@^1.5.13"
+    },
+    {
+      "type": "library",
+      "name": "howler",
+      "version": "^2.2.0",
+      "purl": "pkg:npm/howler@^2.2.0",
+      "bom-ref": "npm/howler@^2.2.0"
+    },
+    {
+      "type": "library",
+      "name": "infinite-scroll",
+      "version": "^3.0.6",
+      "purl": "pkg:npm/infinite-scroll@^3.0.6",
+      "bom-ref": "npm/infinite-scroll@^3.0.6"
+    },
+    {
+      "type": "library",
+      "name": "jquery-scroll-lock",
+      "version": "^3.1.3",
+      "purl": "pkg:npm/jquery-scroll-lock@^3.1.3",
+      "bom-ref": "npm/jquery-scroll-lock@^3.1.3"
+    },
+    {
+      "type": "library",
+      "name": "jquery.scrollbar",
+      "version": "^0.2.11",
+      "purl": "pkg:npm/jquery.scrollbar@^0.2.11",
+      "bom-ref": "npm/jquery.scrollbar@^0.2.11"
+    },
+    {
+      "type": "library",
+      "name": "js-cookie",
+      "version": "^2.2.0",
+      "purl": "pkg:npm/js-cookie@^2.2.0",
+      "bom-ref": "npm/js-cookie@^2.2.0"
+    },
+    {
+      "type": "library",
+      "name": "laravel-mix",
+      "version": "^6.0.43",
+      "purl": "pkg:npm/laravel-mix@^6.0.43",
+      "bom-ref": "npm/laravel-mix@^6.0.43"
+    },
+    {
+      "type": "library",
+      "name": "plyr",
+      "version": "^3.7.2",
+      "purl": "pkg:npm/plyr@^3.7.2",
+      "bom-ref": "npm/plyr@^3.7.2"
+    },
+    {
+      "type": "library",
+      "name": "promise-polyfill",
+      "version": "8.1.0",
+      "purl": "pkg:npm/promise-polyfill@8.1.0",
+      "bom-ref": "npm/promise-polyfill@8.1.0"
+    },
+    {
+      "type": "library",
+      "name": "readmore-js",
+      "version": "^2.2.1",
+      "purl": "pkg:npm/readmore-js@^2.2.1",
+      "bom-ref": "npm/readmore-js@^2.2.1"
+    },
+    {
+      "type": "library",
+      "name": "sweetalert",
+      "version": "^2.1.2",
+      "purl": "pkg:npm/sweetalert@^2.1.2",
+      "bom-ref": "npm/sweetalert@^2.1.2"
+    },
+    {
+      "type": "library",
+      "name": "tributejs",
+      "version": "^5.1.3",
+      "purl": "pkg:npm/tributejs@^5.1.3",
+      "bom-ref": "npm/tributejs@^5.1.3"
+    },
+    {
+      "type": "library",
+      "name": "twitter-text",
+      "version": "^2.0.5",
+      "purl": "pkg:npm/twitter-text@^2.0.5",
+      "bom-ref": "npm/twitter-text@^2.0.5"
+    },
+    {
+      "type": "library",
+      "name": "vue-blurhash",
+      "version": "^0.1.4",
+      "purl": "pkg:npm/vue-blurhash@^0.1.4",
+      "bom-ref": "npm/vue-blurhash@^0.1.4"
+    },
+    {
+      "type": "library",
+      "name": "vue-carousel",
+      "version": "^0.18.0",
+      "purl": "pkg:npm/vue-carousel@^0.18.0",
+      "bom-ref": "npm/vue-carousel@^0.18.0"
+    },
+    {
+      "type": "library",
+      "name": "vue-content-loader",
+      "version": "^0.2.3",
+      "purl": "pkg:npm/vue-content-loader@^0.2.3",
+      "bom-ref": "npm/vue-content-loader@^0.2.3"
+    },
+    {
+      "type": "library",
+      "name": "vue-cropperjs",
+      "version": "^4.1.0",
+      "purl": "pkg:npm/vue-cropperjs@^4.1.0",
+      "bom-ref": "npm/vue-cropperjs@^4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "vue-i18n",
+      "version": "^8.27.1",
+      "purl": "pkg:npm/vue-i18n@^8.27.1",
+      "bom-ref": "npm/vue-i18n@^8.27.1"
+    },
+    {
+      "type": "library",
+      "name": "vue-infinite-loading",
+      "version": "^2.4.5",
+      "purl": "pkg:npm/vue-infinite-loading@^2.4.5",
+      "bom-ref": "npm/vue-infinite-loading@^2.4.5"
+    },
+    {
+      "type": "library",
+      "name": "vue-intersect",
+      "version": "^1.1.6",
+      "purl": "pkg:npm/vue-intersect@^1.1.6",
+      "bom-ref": "npm/vue-intersect@^1.1.6"
+    },
+    {
+      "type": "library",
+      "name": "vue-loading-overlay",
+      "version": "^3.3.3",
+      "purl": "pkg:npm/vue-loading-overlay@^3.3.3",
+      "bom-ref": "npm/vue-loading-overlay@^3.3.3"
+    },
+    {
+      "type": "library",
+      "name": "vue-timeago",
+      "version": "^5.1.2",
+      "purl": "pkg:npm/vue-timeago@^5.1.2",
+      "bom-ref": "npm/vue-timeago@^5.1.2"
+    },
+    {
+      "type": "library",
+      "name": "vue-tribute",
+      "version": "^1.0.7",
+      "purl": "pkg:npm/vue-tribute@^1.0.7",
+      "bom-ref": "npm/vue-tribute@^1.0.7"
+    },
+    {
+      "type": "library",
+      "name": "webgl-media-editor",
+      "version": "^0.0.6",
+      "purl": "pkg:npm/webgl-media-editor@^0.0.6",
+      "bom-ref": "npm/webgl-media-editor@^0.0.6"
+    },
+    {
+      "type": "library",
+      "name": "zuck.js",
+      "version": "^1.6.0",
+      "purl": "pkg:npm/zuck.js@^1.6.0",
+      "bom-ref": "npm/zuck.js@^1.6.0"
+    },
+    {
+      "type": "library",
+      "name": "acorn",
+      "version": "^8.7.1",
+      "purl": "pkg:npm/acorn@^8.7.1",
+      "bom-ref": "npm/acorn@^8.7.1"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": ">=1.6.0",
+      "purl": "pkg:npm/axios@>=1.6.0",
+      "bom-ref": "npm/axios@>=1.6.0"
+    },
+    {
+      "type": "library",
+      "name": "bootstrap",
+      "version": "^4.5.2",
+      "purl": "pkg:npm/bootstrap@^4.5.2",
+      "bom-ref": "npm/bootstrap@^4.5.2"
+    },
+    {
+      "type": "library",
+      "name": "cross-env",
+      "version": "^5.2.1",
+      "purl": "pkg:npm/cross-env@^5.2.1",
+      "bom-ref": "npm/cross-env@^5.2.1"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "^0.25.1",
+      "purl": "pkg:npm/esbuild@^0.25.1",
+      "bom-ref": "npm/esbuild@^0.25.1"
+    },
+    {
+      "type": "library",
+      "name": "jquery",
+      "version": "^3.6.0",
+      "purl": "pkg:npm/jquery@^3.6.0",
+      "bom-ref": "npm/jquery@^3.6.0"
+    },
+    {
+      "type": "library",
+      "name": "laravel-echo",
+      "version": "^1.12.0",
+      "purl": "pkg:npm/laravel-echo@^1.12.0",
+      "bom-ref": "npm/laravel-echo@^1.12.0"
+    },
+    {
+      "type": "library",
+      "name": "laravel-mix-make-file-hash",
+      "version": "^2.2.0",
+      "purl": "pkg:npm/laravel-mix-make-file-hash@^2.2.0",
+      "bom-ref": "npm/laravel-mix-make-file-hash@^2.2.0"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "^4.17.21",
+      "purl": "pkg:npm/lodash@^4.17.21",
+      "bom-ref": "npm/lodash@^4.17.21"
+    },
+    {
+      "type": "library",
+      "name": "popper.js",
+      "version": "^1.16.1",
+      "purl": "pkg:npm/popper.js@^1.16.1",
+      "bom-ref": "npm/popper.js@^1.16.1"
+    },
+    {
+      "type": "library",
+      "name": "pusher-js",
+      "version": "^7.1.1-beta",
+      "purl": "pkg:npm/pusher-js@^7.1.1-beta",
+      "bom-ref": "npm/pusher-js@^7.1.1-beta"
+    },
+    {
+      "type": "library",
+      "name": "resolve-url-loader",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/resolve-url-loader@^5.0.0",
+      "bom-ref": "npm/resolve-url-loader@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "sass",
+      "version": "^1.52.1",
+      "purl": "pkg:npm/sass@^1.52.1",
+      "bom-ref": "npm/sass@^1.52.1"
+    },
+    {
+      "type": "library",
+      "name": "sass-loader",
+      "version": "^12.3.0",
+      "purl": "pkg:npm/sass-loader@^12.3.0",
+      "bom-ref": "npm/sass-loader@^12.3.0"
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "^2.6.14",
+      "purl": "pkg:npm/vue@^2.6.14",
+      "bom-ref": "npm/vue@^2.6.14"
+    },
+    {
+      "type": "library",
+      "name": "vue-loader",
+      "version": "^15.9.8",
+      "purl": "pkg:npm/vue-loader@^15.9.8",
+      "bom-ref": "npm/vue-loader@^15.9.8"
+    },
+    {
+      "type": "library",
+      "name": "vue-masonry-css",
+      "version": "^1.0.3",
+      "purl": "pkg:npm/vue-masonry-css@^1.0.3",
+      "bom-ref": "npm/vue-masonry-css@^1.0.3"
+    },
+    {
+      "type": "library",
+      "name": "vue-router",
+      "version": "^3.5.4",
+      "purl": "pkg:npm/vue-router@^3.5.4",
+      "bom-ref": "npm/vue-router@^3.5.4"
+    },
+    {
+      "type": "library",
+      "name": "vue-template-compiler",
+      "version": "^2.6.11",
+      "purl": "pkg:npm/vue-template-compiler@^2.6.11",
+      "bom-ref": "npm/vue-template-compiler@^2.6.11"
+    },
+    {
+      "type": "library",
+      "name": "vuex",
+      "version": "^3.6.2",
+      "purl": "pkg:npm/vuex@^3.6.2",
+      "bom-ref": "npm/vuex@^3.6.2"
+    },
+    {
+      "type": "library",
+      "name": "vuex-router-sync",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/vuex-router-sync@^5.0.0",
+      "bom-ref": "npm/vuex-router-sync@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "webpack",
+      "version": "^5.72.1",
+      "purl": "pkg:npm/webpack@^5.72.1",
+      "bom-ref": "npm/webpack@^5.72.1"
+    },
+    {
+      "type": "library",
+      "name": "webpack-cli",
+      "version": "^4.9.2",
+      "purl": "pkg:npm/webpack-cli@^4.9.2",
+      "bom-ref": "npm/webpack-cli@^4.9.2"
+    }
+  ]
+}
